@@ -1,0 +1,10 @@
+﻿Creating image for python-app 
+
+docker build . -t print
+
+
+Running container 
+
+docker run -it print
+
+

@@ -1,0 +1,5 @@
+Creating own html page for nginx 
+
+cd nginx
+echo ${PWD}
+docker run -v ${PWD}:/usr/share/nginx/html -p 8080:80 -d nginx
